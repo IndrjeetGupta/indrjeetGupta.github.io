@@ -65,13 +65,15 @@ var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://drive.google.com/file/d/15Mj65rHA73ge805ifoDVcv2_tyDWwmgB/view?usp=sharing",
+    "https://drive.google.com/file/d/1LvDkDLLKwiuev7BtjKP1mtOsE5OsQpvu/view?usp=drive_link",
     "_blank"
+
+    
   );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/uc?export=download&id=15Mj65rHA73ge805ifoDVcv2_tyDWwmgB";
-  link.download = "Indrajeet_Gupta_Resume";
+    "https://drive.google.com/uc?export=download&id=1LvDkDLLKwiuev7BtjKP1mtOsE5OsQpvu";
+  link.download = "Indrajeet-Gupta-Resume";
   link.click();
 });
 
@@ -79,12 +81,12 @@ var resumeLink = document.querySelector("#resume-button-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://drive.google.com/file/d/15Mj65rHA73ge805ifoDVcv2_tyDWwmgB/view?usp=sharing",
+    "https://drive.google.com/file/d/1LvDkDLLKwiuev7BtjKP1mtOsE5OsQpvu/view?usp=drive_link",
     "_blank"
   );
   let link = document.createElement("a");
   link.href =
-    "https://drive.google.com/uc?export=download&id=15Mj65rHA73ge805ifoDVcv2_tyDWwmgB";
+    "https://drive.google.com/uc?export=download&id=1LvDkDLLKwiuev7BtjKP1mtOsE5OsQpvu";
   link.download = "Indrajeet_Gupta_Resume";
   link.click();
 });
